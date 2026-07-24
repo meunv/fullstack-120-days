@@ -194,7 +194,6 @@ console.log(getSecondLargest(arr));
 // function to find the second largest element in the array
 function getSecondLargest(arr) {
     const n = arr.length;
-
     let largest = -1, secondLargest = -1;
 
     // finding the second largest element
