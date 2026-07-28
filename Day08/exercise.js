@@ -129,3 +129,28 @@ Total Bill    : Rs. ${totalBill}
 }
 
 printElectricityBill("Arun Kumar", 250);
+
+// Mini Project 4: Discount Calculator
+
+function calculateDiscount(price, discountPercent) {
+  const discountAmount = (price * discountPercent) / 100;
+  const finalPrice = price - discountAmount;
+  return finalPrice;
+}
+
+console.log(calculateDiscount(2000, 10)); // 1800
+
+// Bonous Challange 4: print Invoice
+
+function printInvoice(productName, price, discountPercent) {
+  const finalPrice = calculateDiscount(price, discountPercent);
+
+  console.log(`========== Invoice ==========
+Product Name : ${productName}
+Price        : ₹${price}
+Discount     : ${discountPercent}%
+Final Price  : ₹${finalPrice}
+=============================`);
+}
+
+printInvoice("Laptop Bag", 2000, 10);
