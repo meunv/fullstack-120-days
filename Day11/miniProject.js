@@ -1,7 +1,15 @@
 /*
 Mini Project – Employee Analytics Dashboard
 
+<<<<<<< HEAD
 Scenario:
+=======
+Now it's time to bring everything you've learned together.
+
+Scenario
+
+You are building a small HR dashboard.
+>>>>>>> 1fd1fe9a9e81d825fac4a9adb1397610f8d71826
 
 Use this dataset:
 
@@ -12,8 +20,14 @@ const employees = [
     { id: 4, name: "Neha", department: "Finance", salary: 65000, active: true },
     { id: 5, name: "Karan", department: "HR", salary: 55000, active: false }
 ];
+<<<<<<< HEAD
 
 Requirements:
+=======
+Requirements
+
+Use the array methods you've learned to:
+>>>>>>> 1fd1fe9a9e81d825fac4a9adb1397610f8d71826
 
 Print all employee names using map().
 Display only active employees using filter().
@@ -25,8 +39,12 @@ Check whether at least one employee belongs to the Finance department using some
 Sort employees by salary (highest to lowest) without modifying the original array.
 Sort employees alphabetically by name without modifying the original array.
 Bonus: Write a reusable function that prints employee details in a neat format.
+<<<<<<< HEAD
 
 Security Challenge (Bonus)
+=======
+🔒 Security Challenge (Bonus)
+>>>>>>> 1fd1fe9a9e81d825fac4a9adb1397610f8d71826
 
 Before processing the data, validate each employee record:
 
